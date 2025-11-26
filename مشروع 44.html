@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning programming</title>
+    <link rel="stylesheet" href="style of project.css">
+    <link rel="stylesheet" href="login javascript.js">
+
+</head>
+<body>
+        <header>
+        <div class="container">
+            <nav>
+                <div class=" fas fa-laptop-code">
+                    <span>
+                        Study programming 
+                    </span>
+                </div>
+                <ul class="nav-links">
+                <li><a href="#main" class="nav-links active " data-target="home"> Main</a></li>
+                <li><a href="#language" class="nav-links" data-target="languages">Languages</a></li>
+                <li><a href="#example" class="nav-links" data-target="examples"> Examples</a></li>
+                <li><a href="login page.html" class="nav-links" data-target="login">Login</a></li>
+                </ul>
+                <div class="auth-buttons">
+                  <button class="btn btn-outline" id="showLogin"><a href="login page.html">Login</a></button>
+                  <button class="btn btn-primary" id="showSignup">Create account</button>
+                </div>
+            </nav>
+        </div>
+    </header> 
+     <!-- Main branch -->
+       <main id="mainContent" >
+         <section class="hero" id="home">
+            <div class="container">
+                <h1>Learning programming easy </h1>
+                <p> Special Site for Learning programming for Beginers With a Special languages: HTML، CSS، C++، Python. ! Start your Study Now</p>
+                <a href="#language" class="btn btn-primary">Start learn Now</a>
+            </div>
+        </section>
+         </main>
+           <!-- أقسام اللغات -->
+        <section class="languages" id="language">
+            <div class="container">
+                <h2 class="section-title"> the programming languages</h2>
+                <div class="language-cards">
+                    <!-- بطاقة HTML -->
+                    <div class="card html">
+                        <div class="card-header">
+                            <h2>HTML</h2>
+                        </div>
+                        <div class="card-body">
+                            <h3>لغة ترميز النص الفائق</h3>
+                            <p>HTML هي العمود الفقري لجميع مواقع الويب. تستخدم لإنشاء هيكل صفحات الويب وتنظيم المحتوى.</p>
+                            <p><strong>الاستخدام:</strong> تطوير الويب الأمامي</p>
+                            <a href="#html-example" class="btn btn-primary">راجع الأمثلة</a>
+                        </div>
+                    </div>
+                    
+                    <!-- بطاقة CSS -->
+                    <div class="card css">
+                        <div class="card-header">
+                            <h2>CSS</h2>
+                        </div>
+                        <div class="card-body">
+                            <h3>صفحات الطرز المتراصة</h3>
+                            <p>CSS تستخدم لتنسيق وتصميم صفحات الويب، مما يجعلها جذابة وسهلة الاستخدام.</p>
+                            <p><strong>الاستخدام:</strong> تنسيق وتصميم الويب</p>
+                            <a href="#css-example" class="btn btn-primary">راجع الأمثلة</a>
+                        </div>
+                    </div>
+                    
+                    <!-- بطاقة C++ -->
+                    <div class="card cpp">
+                        <div class="card-header">
+                            <h2>C++</h2>
+                        </div>
+                        <div class="card-body">
+                            <h3>لغة برمجة متعددة الاستخدامات</h3>
+                            <p>C++ هي لغة برمجة قوية تستخدم لتطوير البرامج عالية الأداء، وأنظمة التشغيل، والألعاب.</p>
+                            <p><strong>الاستخدام:</strong> برمجة الأنظمة والتطبيقات</p>
+                            <a href="#cpp-example" class="btn btn-primary">راجع الأمثلة</a>
+                        </div>
+                    </div>
+                    
+                    <!-- بطاقة Python -->
+                    <div class="card python">
+                        <div class="card-header">
+                            <h2>Python</h2>
+                        </div>
+                        <div class="card-body">
+                            <h3>لغة برمجة سهلة التعلم</h3>
+                            <p>Python هي لغة برمجة متعددة الاستخدامات وسهلة التعلم، تستخدم في تطوير الويب، الذكاء الاصطناعي، وتحليل البيانات.</p>
+                            <p><strong>الاستخدام:</strong> تطبيقات متعددة المجالات</p>
+                            <a href="#python-example" class="btn btn-primary">راجع الأمثلة</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الأمثلة -->
+        <section class="examples" id="examples">
+            <div class="container">
+                <h2 class="section-title">أمثلة برمجية</h2>
+                
+                <div class="example-tabs">
+                    <button class="tab-btn active" data-tab="#html-example">HTML</button>
+                    <button class="tab-btn " data-tab="#css-example">CSS</button>
+                    <button class="tab-btn" data-tab="#cpp-example">C++</button>
+                    <button class="tab-btn" data-tab="#python-example">Python</button>
+                </div>
+                
+                <div class="tab-content active" id="html-example">
+                    <h3>مثال HTML: هيكل صفحة ويب أساسية</h3>
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="ar" dir="rtl"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;صفحتي الأولى&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;مرحباً بالعالم!&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+        &lt;p&gt;هذه هي صفحتي الأولى باستخدام HTML.&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;عنصر قائمة 1&lt;/li&gt;
+            &lt;li&gt;عنصر قائمة 2&lt;/li&gt;
+            &lt;li&gt;عنصر قائمة 3&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;
+        &lt;p&gt;جميع الحقوق محفوظة &copy; 2025&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </div>
+                
+                <div class="tab-content" data-tab="css-example">
+                    <h3>مثال CSS: تنسيق صفحة ويب</h3>
+                    <pre><code>/* تنسيق عام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* تنسيق الهيدر */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* تنسيق العنوان الرئيسي */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الفقرات */
+p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* تنسيق القوائم */
+ul {
+    list-style-type: square;
+    margin-right: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* تنسيق الفوتر */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}</code></pre>
+                </div>
+                
+                <div class="tab-content" id="cpp-example">
+                    <h3>مثال C++: برنامج حسابي بسيط</h3>
+                    <pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+// دالة لجمع عددين
+int add(int a, int b) {
+    return a + b;
+}
+
+// دالة لطرح عددين
+int subtract(int a, int b) {
+    return a - b;
+}
+
+// دالة رئيسية
+int main() {
+    int num1, num2;
+    
+    cout &lt;&lt; "أدخل الرقم الأول: ";
+    cin &gt;&gt; num1;
+    
+    cout &lt;&lt; "أدخل الرقم الثاني: ";
+    cin &gt;&gt; num2;
+    
+    // استدعاء الدوال وعرض النتائج
+    cout &lt;&lt; "مجموع الرقمين: " &lt;&lt; add(num1, num2) &lt;&lt; endl;
+    cout &lt;&lt; "فرق الرقمين: " &lt;&lt; subtract(num1, num2) &lt;&lt; endl;
+    
+    return 0;
+}</code></pre>
+                </div>
+                
+                <div class="tab-content" id="python-example">
+                    <h3>مثال Python: آلة حاسبة بسيطة</h3>
+                    <pre><code># دالة لجمع عددين
+def add(a, b):
+    return a + b
+
+# دالة لطرح عددين
+def subtract(a, b):
+    return a - b
+
+# دالة لضرب عددين
+def multiply(a, b):
+    return a * b
+
+# دالة لقسمة عددين
+def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "لا يمكن القسمة على صفر!"
+
+# البرنامج الرئيسي
+print("آلة حاسبة بسيطة")
+print("1. جمع")
+print("2. طرح")
+print("3. ضرب")
+print("4. قسمة")
+
+choice = input("اختر العملية (1/2/3/4): ")
+
+num1 = float(input("أدخل الرقم الأول: "))
+num2 = float(input("أدخل الرقم الثاني: "))
+
+if choice == '1':
+    print(f"النتيجة: {add(num1, num2)}")
+elif choice == '2':
+    print(f"النتيجة: {subtract(num1, num2)}")
+elif choice == '3':
+    print(f"النتيجة: {multiply(num1, num2)}")
+elif choice == '4':
+    print(f"النتيجة: {divide(num1, num2)}")
+else:
+    print("اختيار غير صحيح")</code></pre>
+                </div>
+            </div>
+        </section>
+   
+     
+    
+        <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>تعلم البرمجة</h3>
+                <p>موقع تعليمي مجاني لتعليم أساسيات البرمجة</p>
+                <ul class="footer-links">
+                   <li><a href="#main" class="nav-link " data-target="home"> Main</a></li>
+                <li><a href="#language" class="nav-link" data-target="languages">Languages</a></li>
+                <li><a href="#example" class="nav-link" data-target="examples"> Examples</a></li>
+                <li><a href="login page.html" class="nav-link" data-target="login">Login</a></li>
+                </ul>
+                <p>جميع الحقوق محفوظة &copy; 2025</p>
+                <p>Made by Eng.Maysoor Al-Ghanim </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
